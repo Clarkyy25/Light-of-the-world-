@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cover sign-in</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+  body {
+          background-image: url("Sunset.jpg");
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            background-size: cover;
+        }
+        
+ .container {
+            text-align: center;
+            color: white;
+            z-index: 10;
+            max-width: 800px;
+            padding: 2rem;
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+            width: 800px;
+            height: 550px;
+            
+        }
+        
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 6px 6px 8px rgba(0,0, 0, 0.5);
+            border-bottom: 1px solid  #f1c40f;
+            color: white;
+           }
+        
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+            font-weight: 300;
+        }
+        
+ .signin-btn {
+            background: #ffcc44;
+            color: #333;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+  .signin-btn:hover {
+            background: lightgreen;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+        }
+        
+ .light-rays {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+            animation: pulse 8s infinite alternate;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 0.3; }
+            100% { opacity: 0.7; }
+        }
+        
+        
+          
+    </style>
+</head>
+<body>
+  <form action="Log in.html">
+    <div class="light-rays"></div>
+    <div class="container">
+      <img src="Tcgc.jpg" style="width: 50px; height: 50px; border-radius: 50px;">
+      <img src="Computer science.jpg" style="width: 50px; height: 50px; border-radius: 50px;">
+   <br>
+   <br>
+     <h1>"Light of the World"</h1>
+        <p style="background: linear-gradient(45deg,White,Red);
+          -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;"><i>Una ang Ginoo - God first at everything!</i></p>
+  <h5 style="color: lightgreen;text-shadow: 8px 8px 10px rgba(0,0, 0, 0.5);"><i>Integrity,  Compassion and Excellence</i></h5>
+   <br>
+   <br>
+   <br>
+  <h4 style="text-shadow: 8px 8px 10px rgba(0,0, 0, 0.5);"><i>Sharing  kindness and good values<br> with the fellow citizens is important<br>
+      because everything in this world<br>
+      without kindness is useless.<br>
+      so lets continue to be<br> the light light of the world! </i></h4>
+   <br>
+   <br>
+   <br>
+   <br>
+   <p>for more details pls click sign in..</p>
+        <br>
+        <button class="signin-btn">Sign In</button>
+        </form>
+    </div>
+</body>
+</html>

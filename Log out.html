@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      log out
+    </title>
+    <body>
+      <style>
+
+        
+        body {
+          background-image: url("Sunset.jpg");
+          display: flex;
+          justify-content: center; 
+          align-items: center; 
+          min-height: 100vh; 
+          background-size: cover;
+         }
+          
+        .Container{
+          z-index: 10;
+            max-width: 800px;
+            width: 340px;
+            height: 140px;
+            padding: 2rem;
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+            animation: fadein 0.3s ease;
+            transition: all 0.3s ease;
+        }
+           
+          @keyframes fadein{
+            from{
+              opacity: 1;
+              transform: translateY(80%);
+          }
+          to{
+            opacity: 1;
+            transform: translateY(0);
+          }
+          }
+          .logout-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 25px; /* distance sa Yes ug No */
+  margin-top: 20px;
+}
+          .yes{
+            background-color: lightgreen;
+            width: 40px;
+            height: 30px;
+            border-radius: 10px;
+          }
+          .no{
+            background-color: red;
+            width: 40px;
+            height: 30px;
+            border-radius: 10px;
+          }
+        
+</style>
+   <center>
+     <div class="Container">
+       <img src="Sad.jpg" style="width: 50px; height: 50px; border-radius: 50px;">   
+ <p>Are you sure you want to log out?</p>
+      
+<div class="logout-buttons">
+  <form action="Cover page.html">
+  <button class="yes">Yes</button>
+  </form>
+  <form action="Website.html">
+  <button class="no">No</button>
+  </form>
+</div>  
+      
+    </body>
+  </head>
+</html>

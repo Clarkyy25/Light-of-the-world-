@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        * { 
+          margin: 0; 
+          padding: 0;
+          box-sizing: border-box; 
+          font-family: Arial, sans-serif;
+          }
+          
+    body {
+          background-image: url("Sunset.jpg");
+          display: flex;
+          justify-content: center; 
+          align-items: center; 
+          min-height: 100vh; 
+          background-size: cover;
+         }
+        
+ .login-box {
+            z-index: 10;
+            max-width: 850px;
+            width: 500px;
+            height: 590px;
+            padding: 3rem;
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+            animation: fadein 0.3s ease;
+            transition: all 0.3s ease;
+           }
+          @keyframes fadein{
+            from{
+              opacity: 1;
+              transform: translateY(80%);
+          }
+          to{
+            opacity: 1;
+            transform: translateY(0);
+          }
+          }
+          
+      h2 { 
+          text-align: center; 
+          margin-bottom: 20px; 
+          color: white; 
+        }
+        
+.input-group {
+             margin-bottom: 15px;
+              }
+          
+   input { 
+          width: 100%;
+          padding: 18px;
+          border: 1px solid #ddd;
+          border-radius: 15px; 
+         }
+         
+    button {
+          width: 100%;
+          padding: 15px; 
+          background: green;
+          color: white;
+          border: none; 
+          border-radius: 15px;
+          cursor: pointer; 
+         }
+         
+ button:hover {
+              background: lightgreen;
+              }
+              
+   .links { 
+          text-align: center; 
+          margin-top: 15px; 
+          font-size: 14px; 
+        }
+        
+        a { 
+          color: #1877f2;
+          text-decoration: none;
+          }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+      <br>
+      <br>
+      <center>
+       <img src="Tcgc.jpg" style="width: 50px; height: 50px; border-radius: 50px;">
+      <h1 style="color: white; border-bottom: 1px solid #f1c40f; text-shadow: 6px 6px 8px rgba(0,0, 0, 0.5);"><i>"Tangub City Global College"</i></h1>
+  <strong style="color: lightgreen;text-shadow: 6px 6px 8px rgba(0,0, 0, 0.5);"><i>Integrity,  Compassion and Excellence</i></strong>
+   </center>
+       <br>
+        <h2 style="background: linear-gradient(45deg,#ff006e,#00eaff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        ">Sign in</h2>
+        <form action="Website.html">
+            <div class="input-group">
+                <input type="text" placeholder="Please enter your email..." required>
+                <br>
+                <br>
+            </div>
+            <div class="input-group">
+                <input type="password" placeholder="Please enter enter your password..." required>
+                <br>
+                <br>
+                <br>
+           </div>
+         <button type="submit">Log In</button>
+          <br>
+          <br>
+          <br>
+          <br>
+          <p><center>2025|Guipitacio. all rights reserved.</center></p>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
